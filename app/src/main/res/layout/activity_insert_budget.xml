@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".InsertBudgetActivity"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <!-- Title Text View -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Budget Management"
+        android:textSize="24sp"
+        android:textColor="#060F45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Description Text View -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage your budgets efficiently with BudgetMe"
+        android:textSize="16sp"
+        android:textColor="#606060"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Insert Budget Button -->
+
+    <!-- View Budgets Button -->
+    <Button
+        android:id="@+id/insertBudgetButton"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="showInsertBudgetDialog"
+        android:padding="12dp"
+        android:text="Insert Budget"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/viewBudgetButton"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/insertBudgetButton"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="viewBudget"
+        android:paddingStart="24dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="12dp"
+        android:text="View Budgets"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

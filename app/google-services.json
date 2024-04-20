@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "463187121100",
+    "firebase_url": "https://mad2-1a36c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mad2-1a36c",
+    "storage_bucket": "mad2-1a36c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463187121100:android:fdf149aa40dd04382b0369",
+        "android_client_info": {
+          "package_name": "my.edu.utar.mad2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKersBByOzFdpprgSKEwueiXYCNMrA_30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

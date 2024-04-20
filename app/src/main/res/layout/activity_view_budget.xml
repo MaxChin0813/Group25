@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+   >
+
+    <!-- Total Amount TextView -->
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:text="Total Amount:"
+        android:gravity="center"
+        android:background="@android:color/transparent"/>
+
+    <!-- Budget ListView -->
+    <ListView
+        android:id="@+id/budgetListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalAmountTextView"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+</RelativeLayout>
